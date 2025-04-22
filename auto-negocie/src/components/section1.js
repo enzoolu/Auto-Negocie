@@ -24,6 +24,8 @@ export const Titulo = styled.h1`
   flex-direction: column;
   text-align: center;
   max-width: 650px;
+  text-align: ${({ align }) => align || "left"};
+  align-items: ${({ align }) => align === 'center' ? 'center' : 'flex-start'};
 
   @media(max-width: 425px) {
     font-size: ${({ theme }) => theme.fontSizes.titulosMobile};

@@ -62,8 +62,8 @@ const AreaDestaque = styled.div`
         font-size: ${({ theme }) => theme.fontSizes.subtitulos};
     }
 
-    @media(max-width: 425px) {
-        padding: 20px 20px;
+    @media(max-width: 670px) {
+        display: none;
     }
 `;
 

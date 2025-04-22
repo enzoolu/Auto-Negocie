@@ -18,6 +18,7 @@ const Texto = styled.p`
     color: ${({ theme }) => theme.colors.cinzaTexto};
     margin-top: 40px;
     margin-bottom: 70px;
+    text-align: center;
 `;
 
 const ImgSeta = styled.img`

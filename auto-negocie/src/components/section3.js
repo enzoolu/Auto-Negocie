@@ -38,8 +38,8 @@ const GridTexto = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: start;
-    text-align: start;
+    align-items: flex-start;
+    text-align: left;
     gap: 30px;
 
     @media(max-width: 675px) {
@@ -52,6 +52,7 @@ const Subtitulo = styled.p`
     font-size: ${({ theme }) => theme.fontSizes.textos};
     color: ${({ theme }) => theme.colors.cinzaTexto};
     max-width: 60ch;
+    text-align: left;
 `;
 
 const Items = styled.div`
@@ -83,7 +84,7 @@ export function Section3() {
         <Section3Container>
             <ImgGrid src="/images/sales-man-car-showroom-selling-car.png" />
             <GridTexto>
-                <Titulo align="left">
+                <Titulo>
                     <span>Protesto inteligente:</span>
                     <span className="destaque"> proteja sua empresa</span>
                 </Titulo>
