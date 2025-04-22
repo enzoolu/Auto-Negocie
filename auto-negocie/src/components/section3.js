@@ -105,7 +105,7 @@ export function Section3() {
                         <TextoItem>Sem necessidade de intermediários.</TextoItem>
                     </Item>
                 </Items>
-                <Botao href="#">Protestar agora</Botao>
+                <Botao href="#contato">Protestar agora</Botao>
             </GridTexto>
         </Section3Container>
     )

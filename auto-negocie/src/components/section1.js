@@ -196,7 +196,7 @@ export function Section1() {
                     </CardTexto>
                 </Card>
             </Cards>
-            <Botao href="#">Fazer consulta agora</Botao>
+            <Botao href="#contato">Fazer consulta agora</Botao>
         </Section1Container>
     );
 };

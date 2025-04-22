@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Titulo } from "./section1.js";
 
-const Container = styled.section`
+const ContainerSectionForm = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +128,7 @@ const SubmitButton = styled.button`
 
 const Form = () => {
     return (
-      <Container>
+      <ContainerSectionForm id="contato">
         <Titulo align="center">
             <span>Precisa de mais informações</span>
             <span className="destaque"> ou quer iniciar agora?</span>
@@ -168,7 +168,7 @@ const Form = () => {
             Enviar mensagem
           </SubmitButton>
         </FormContainer>
-      </Container>
+      </ContainerSectionForm>
     );
 };
   

@@ -150,7 +150,7 @@ export function Section2() {
             </TextoItem>
           </Item>
         </Items>
-        <Botao href="#">Reconhecer firma agora</Botao>
+        <Botao href="#contato">Reconhecer firma agora</Botao>
       </GridTexto>
       <ImgGrid src="/images/portrait-smile-laptop-with-woman-floor-living-room-home-email-internet-research-computer-relax-social-media-with-happy-young-person-apartment-website-browsing.jpg" />
     </Section2Container>

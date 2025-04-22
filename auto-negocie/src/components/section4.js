@@ -130,7 +130,7 @@ export function Section4() {
                         <span>Por que escolher</span>
                         <span className="destaque">a AutoNegocio?</span>
                     </Titulo>
-                    <Botao>Começar agora</Botao>
+                    <Botao href="#contato">Começar agora</Botao>
                 </AreaBtn>
                 <AreaDestaque>Nosso serviço se destaca porque entregamos tudo em um só lugar, sem concorrência direta no mercado:</AreaDestaque>
              </Linha1>

@@ -75,7 +75,7 @@ export const Botao = styled.a`
     height: 19px;
     display: inline-block;
     position: absolute;
-    top: 18px;
+    top: 14px;
     right: 20px;
   }
 `;
@@ -166,7 +166,7 @@ export function HeroSection() {
             Na <strong>AutoNegocie</strong>, você consulta débitos, verifica o histórico veicular, realiza vistoria digital e faz o reconhecimento de firma de forma remota com o cartório, tendo a mesma validade do processo presencial. Tudo isso de forma rápida, segura e sem burocracia.
           </Texto>
         </AreaTexto>
-        <Botao href="#">Consultar agora</Botao>
+        <Botao href="#contato">Consultar agora</Botao>
         <ImgHero>
             <Detalhe1>
                 <DetalheImg src="/images/cel.svg" alt="Detalhe 1"></DetalheImg>
