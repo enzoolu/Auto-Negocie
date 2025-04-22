@@ -129,7 +129,7 @@ const SubmitButton = styled.button`
 const Form = () => {
     return (
       <Container>
-        <Titulo align="right">
+        <Titulo align="center">
             <span>Precisa de mais informações</span>
             <span className="destaque"> ou quer iniciar agora?</span>
         </Titulo>
